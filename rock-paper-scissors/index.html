@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="confetti"></canvas>
+    <div class="stage">
+        <div class="round-counter">
+            <h1>RPS</h1>
+            <h2>Round: <span class="round-count">0</span></h2>
+        </div>
+        <div class="score-container">
+            <div class="scoring">
+                <p>Your Score: <span class="player-score">0</span></p>
+            </div>
+            <div class="scoring">
+                <p>CPU Score: <span class="cpu-score">0</span></p>
+            </div>
+        </div>
+        <div class="battle-stage">
+            <div class="current-choice-container">
+                <h2>Player</h2>
+                <div class="player-choice">
+                    ...
+                </div>
+            </div>
+            <div class="choice-container">
+                <button class="choice-play">Rock</button>
+                <button class="choice-play">Paper</button>
+                <button class="choice-play">Scissors</button>
+            </div>
+            <div class="current-choice-container">
+                <h2>CPU</h2>
+                <div class="cpu-choice">
+                    ...
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="result">PLAY!</h1>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

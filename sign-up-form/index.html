@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <figure>
+        <div id="hero-title">
+            <img src="odin-lined.png" alt="Odin Project Logo">
+            <h1>ODIN</h1>
+        </div>
+        <img src="banner.jpg" alt="Ferms om tje Washington forest">
+        <div id="caption-container">
+            <figcaption>
+                Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" rel="noopener noreferrer">Halie
+                    West</a> on <a
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+                    target="_blank" rel="noopener noreferrer">Unsplash</a>
+            </figcaption>
+        </div>
+    </figure>
+    <main>
+        <section>
+            <p>This is not a real online service!</p>
+            <p>You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+        </section>
+        <p><em>You know you want to.</em></p>
+        <section id="form-section">
+            <form action="" method="post">
+                <fieldset>
+                    <h3>Let's do this!</h3>
+                    <div class="input-container">
+                        <div class="input-field">
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Thor">
+                        </div>
+                        <div class="input-field">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Odinson">
+                        </div>
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="lordofthunder@asgard.com">
+                        </div>
+                        <div class="input-field">
+                            <label for="phone-number">Phone number</label>
+                            <input type="text" name="phone-number" id="phone-number" minlength="10" maxlength="10"
+                                placeholder="+63 912 345 6789">
+                        </div>
+                        <div class="input-field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" minlength="8" placeholder="********">
+                        </div>
+                        <div class="input-field">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="8"
+                                placeholder="********">
+                        </div>
+                    </div>
+
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+        <p>Already have an account? <a id="login" href="#hero-title">Log in</a></p>
+    </main>
+</body>
+
+</html>

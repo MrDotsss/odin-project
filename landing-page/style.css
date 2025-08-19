@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Roboto', monospace, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero-container,
+header,
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+header {
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 10vw;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin: 0 18px;
+}
+
+.hero-container {
+    padding: 15vh 10vw;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    border: 2px solid #3882f6;
+    width: 100%;
+    height: 200px;
+    max-width: 400px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.hero-intro button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #F9FAF8;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.figure-containers {
+    display: flex;
+    justify-content: center;
+}
+
+.figure-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.project-card img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text,
+.quote-author {
+    padding: 18px 25vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    align-self: flex-start;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    
+    padding: 0 5vw;
+    margin: 24px 0;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 16px 64px;
+    color: #F9FAF8
+}
+
+.call-info {
+    flex: 1;
+    margin-right: 24px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 0;
+    flex-basis: 128px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 16px;
+}

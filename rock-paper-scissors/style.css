@@ -1,0 +1,97 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(bisque, rgb(165, 165, 121));
+}
+
+.stage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.choice-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    flex-basis: 80%;
+    background-color: rgb(219, 186, 146);
+    border: 2px solid black;
+    transition: background-color 0.5s;
+    transition: color 1s;
+    transition: border 2s;
+    transition: transform 1s;
+}
+
+button:hover {
+    background-color: rgb(68, 56, 41);
+    color: aliceblue;
+    border: 4px dotted aliceblue;
+    transform: translateY(-5px);
+}
+
+.score-container {
+    margin: 1.5em;
+    font-size: 1.5rem;
+}
+
+.scoring p span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.round-counter {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.round-counter h2 span {
+    font-size: 2em;
+}
+
+.battle-stage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result {
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    transition: color 1s;
+}
+
+.current-choice-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-choice, .cpu-choice {
+    font-size: 2em;
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}

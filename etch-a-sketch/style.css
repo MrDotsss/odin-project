@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #a08383;
+    display: flex;
+    height: 100vh;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 90vmin;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+}
+
+.square-grid {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+button {
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 1.1rem;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #745656;
+    color: white;
+}
+
+.pen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1.2rem;
+}
+
+.current-pen {
+    width: 30%;
+    align-self: center;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border: 2px solid #745656;
+}

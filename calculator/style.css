@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Grid Single", system-ui;
+}
+
+body {
+    background-color: rgb(40, 65, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(56, 68, 68);
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 1.5rem;
+    height: 80%;
+    aspect-ratio: 9/16;
+    gap: 1em;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(130, 168, 147);
+    text-shadow: 2px 2px rgb(116, 129, 124);
+    box-shadow: 2px 2px rgb(39, 48, 44);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+#expression {
+    font-size: 2.5em;
+    word-wrap: break-word;
+    height: 2em;
+    font-weight: 500;
+}
+
+hr {
+    border: 0.1em solid black;
+    width: 100%;
+}
+
+#result {
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+#buttons-container {
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+    gap: 0.5em;
+}
+
+#button-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.btn {
+    flex: 1 1 0;
+    font-size: clamp(0.8rem, 2.5vw, 2rem);
+    border-radius: 0.5em;
+}
+
+.flex-shrink {
+    flex: 0.5;
+}
+
+#clear {
+    background-color: orange;
+}
+
+#equal {
+    background-color: rgb(163, 41, 41);
+}

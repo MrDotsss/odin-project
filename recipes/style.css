@@ -1,0 +1,75 @@
+* {
+    font-family: 'Courier New', 'Lucida Console', 'Monaco',monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 80px;
+}
+
+a {
+    color: red;
+    text-decoration: overline;
+}
+
+.return-home {
+    font-size: 24px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 10vh;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0.5vh solid red;
+}
+
+.subtitle {
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bold;
+}
+.grid {
+    display: block;
+}
+
+.grid-item {
+    display: inline-block;
+    height: auto;
+    width: 50vh;
+    padding: 24px;
+    margin: 8px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.grid-item img {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.recipe-description {
+    text-align: justify;
+}
+
+/* recipe page */
+
+.big-image {
+    display: block;
+    margin: 16px auto;
+}
+
+.directions, .ingredients {
+    border: 2px solid red;
+    padding: 16px;
+    margin: 8px;
+}
+
+.directions h2, .ingredients h2 {
+    color: red;
+}
+
